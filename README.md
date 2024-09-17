@@ -4,7 +4,7 @@ This repository provides access to the **HR-VISPR** used for evaluating human vi
 
 ## Download the Dataset
 
-download the dataset at [Download Dataset](google drive link)
+Download the dataset at [HR-VISPR ](https://drive.google.com/drive/folders/1rH3m8freZ3fMBq7cJ8AXC_gDcppTAOpi?usp=sharing)
 
 ## Annotation Tool
 
