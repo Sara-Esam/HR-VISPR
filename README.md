@@ -1,6 +1,8 @@
 # HR-VISPR - Human Visual-Privacy Dataset
 
-This repository provides access to the **HR-VISPR** proposed for evaluating human visual privacy protection, presented in the paper [conference name]. 
+This repository provides access to the **HR-VISPR** proposed for evaluating human visual privacy protection.
+
+The dataset and the baseline are presented in the paper "Evaluation of Human Visual Privacy Protection: A Three-Dimensional Framework and Benchmark Dataset" accepted @ **ICCV'25 Workshop CV4BIOM (Workshop on Computer Vision for Biometrics, Identity & Behaviour)**
 The dataset is derived from the [Visual Privacy Dataset](https://github.com/tribhuvanesh/vpa) proposed by [Orekondy et al.](https://tribhuvanesh.github.io/vpa/)
 
 ## Download the Dataset
@@ -58,7 +60,7 @@ object_detection_utility_labels/
 |   |   ...
 ```
 ## Privacy 
-The privacy lables are applied to train a multi-label binary classifier on the original (non-anonymized) images. Then, the classifier is applied on the anonymized versions, and the privacy protection is quantified by the drop in cMAP. The following repositorities are helpful for this task:
+The privacy labels are applied to train a multi-label binary classifier on the original (non-anonymized) images. Then, the classifier is applied on the anonymized versions, and the privacy protection is quantified by the drop in cMAP. The following repositorities are helpful for this task:
 [TeD-SPAD](https://github.com/UCF-CRCV/TeD-SPAD)&[SPAct](https://github.com/DAVEISHAN/SPAct).  
 
 ## Utility 
